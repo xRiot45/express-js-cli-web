@@ -8,5 +8,11 @@
 - No Manual Configuration
 - Customizable
 
+<div align="center">
+    <img alt="NPM Version" src="https://img.shields.io/npm/v/express-api-cli-tool?style=for-the-badge&link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Fexpress-api-cli-tool%3FactiveTab%3Dversions">
+    <img alt="NPM License" src="https://img.shields.io/npm/l/express-api-cli-tool?style=for-the-badge" />
+    <img alt="NPM Downloads" src="https://img.shields.io/npm/dy/express-api-cli-tool?style=for-the-badge&link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Fexpress-api-cli-tool">
+</div>
+
 [GitHub](https://github.com/xRiot45/express-cli)
-[Get Started](https://www.npmjs.com/package/express-api-cli-tool)
+[Get Started](getting-started/introduction.md)
