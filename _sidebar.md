@@ -20,12 +20,12 @@
 
 - Configuration File
 
-  - [Environment Configuration](configuration-file/environment-config.md)
-  - [GitIgnore Configuration](configuration-file/gitignore-config.md)
-  - [Prettier Configuration](configuration-file/prettierr-config.md)
-  - [Babel Configuration](configuration-file/babel-config.md)
-  - [Husky and CommitLint Configuration](configuration-file/commitlint-config.md)
-  - [ESlint Config](configuration-file/eslint-config.md)
+  - [Environment Configuration](configuration-files/environment-config.md)
+  - [GitIgnore Configuration](configuration-files/gitignore-config.md)
+  - [Prettier Configuration](configuration-files/prettierr-config.md)
+  - [Babel Configuration](configuration-files/babel-config.md)
+  - [Husky and CommitLint Configuration](configuration-files/commitlint-config.md)
+  - [ESlint Config](configuration-files/eslint-config.md)
 
 - [License](documentation-files/license.md)
 - [Changelog](documentation-files/changelog.md)
