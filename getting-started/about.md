@@ -44,6 +44,7 @@ Want a feature added? **Open a feature request** on [GitHub Issues](https://gith
 For questions, feedback, or collaboration opportunities, feel free to reach out:
 
 - **Email :** tomasalberto527@gmail.com
+- **Sponsor me :** [Github Sponsors](https://github.com/sponsors/xRiot45)
 - **GitHub Discussions :** [Express API CLI Discussions](https://github.com/xRiot45/express-cli/discussions)
 - **Report Issues :** [GitHub Issues](https://github.com/xRiot45/express-cli/issues)
 
@@ -72,5 +73,5 @@ This project would not be possible without the support and feedback from everyon
 
 ---
 
-With **Express API CLI**, setting up an Express.js project has never been easier.  
+With **Express JS CLI**, setting up an Express.js project has never been easier.  
 Save time, ensure consistency, and start building great APIs today! 🚀

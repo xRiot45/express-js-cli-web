@@ -18,6 +18,14 @@
   - [Interface Module](snippets-code/interface-module.md)
   - [Test Module](snippets-code/test-module.md)
 
-- [Security Policy](security-policy.md)
-- [License](license.md)
-- [Changelog](changelog.md)
+- Configuration File
+
+  - [Environment Configuration](configuration-file/environment-config.md)
+  - [GitIgnore Configuration](configuration-file/gitignore-config.md)
+  - [Prettier Configuration](configuration-file/prettierr-config.md)
+  - [Babel Configuration](configuration-file/babel-config.md)
+  - [Husky and CommitLint Configuration](configuration-file/commitlint-config.md)
+  - [ESlint Config](configuration-file/eslint-config.md)
+
+- [License](documentation-files/license.md)
+- [Changelog](documentation-files/changelog.md)

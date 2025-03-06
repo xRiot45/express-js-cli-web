@@ -79,8 +79,8 @@ afterEach(async () => {
 
 Each API endpoint is tested in individual test cases. The structure follows:
 
-1. **Successful Requests:** Valid token and valid request body.
-2. **Error Handling:** Invalid token, missing parameters, or duplicate data.
+1. **Successful Cases:** Valid token and valid request body.
+2. **Error Cases:** Invalid token, missing parameters, or duplicate data.
 3. **Edge Cases:** Checking response codes for unexpected input.
 
 ---

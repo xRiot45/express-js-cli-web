@@ -66,12 +66,6 @@ export default testMiddleware;
 
 ## How to Use
 
-### Importing the Middleware Module
-
-```javascript
-import testMiddleware from "../middlewares/test.middleware.js";
-```
-
 ### Applying Middleware in an Express Application
 
 ```javascript

@@ -8,7 +8,7 @@ This module defines a database model using Sequelize, a promise-based Node.js OR
 
 ## Code Implementation
 
-Below is the code for defining a Sequelize model.
+Below is the code for defining a model code.
 
 ### Structure Code
 
@@ -42,31 +42,35 @@ Sequelize allows defining attributes with specific data types and constraints. H
 import { DataTypes } from "sequelize";
 import sequelize from "../configs/sequelize.config.js";
 
-const testModel = sequelize.define("test", {
-  id: {
-    type: DataTypes.INTEGER,
-    primaryKey: true,
-    autoIncrement: true,
-    allowNull: false,
+const testModel = sequelize.define(
+  "test",
+  {
+    id: {
+      type: DataTypes.INTEGER,
+      primaryKey: true,
+      autoIncrement: true,
+      allowNull: false,
+    },
+    name: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
   },
-  name: {
-    type: DataTypes.STRING,
-    allowNull: false,
+  {
+    timestamps: true,
   },
-  createdAt: {
-    type: DataTypes.DATE,
-    defaultValue: DataTypes.NOW,
-  },
-  updatedAt: {
-    type: DataTypes.DATE,
-    defaultValue: DataTypes.NOW,
-  },
-});
+);
 
 export default testModel;
 ```
 
-### Extending model
+#### Attribute Explanation
+
+- **`id`** → A unique identifier for each record (auto-incremented primary key).
+- **`name`** → A string field that cannot be null.
+- **`timestamps`** → Timestamp fields that default to the current date and time.
+
+### Extending model (Using TypeScript)
 
 ```javascript
 import { Model, DataTypes } from "sequelize";
@@ -98,19 +102,10 @@ TestModel.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    createdAt: {
-      type: DataTypes.DATE,
-      defaultValue: DataTypes.NOW,
-    },
-    updatedAt: {
-      type: DataTypes.DATE,
-      defaultValue: DataTypes.NOW,
-    },
   },
   {
     sequelize,
-    modelName: "Test",
-    tableName: "tests",
+    modelName: "test",
     timestamps: true,
   },
 );
@@ -118,25 +113,38 @@ TestModel.init(
 export default TestModel;
 ```
 
-### Attribute Explanation
+#### Attribute Explanation
 
 - **`id`** → A unique identifier for each record (auto-incremented primary key).
 - **`name`** → A string field that cannot be null.
-- **`createdAt` & `updatedAt`** → Timestamp fields that default to the current date and time.
+- **`sequelize`** → Sequelize instance used for model initialization
+- **`modelName`** → Table name
+- **`timestamps`** → Timestamp fields that default to the current date and time.
 
 ---
 
 ## How to Use
 
-1. **Synchronize the model with the database**
+1. **Sync the model with the database inside the `connectToDatabase` function in the `src/configs/database.config.js` file.**
 
    ```javascript
    import testModel from "./models/test.model.js";
+   import logger from "./logger.config.js";
+   import sequelize from "./sequelize.config.js";
 
-   testModel
-     .sync({ alter: true })
-     .then(() => console.log("Test table synced"))
-     .catch((error) => console.error("Error syncing table:", error));
+   export default async function connectToDatabase() {
+     try {
+       await sequelize.authenticate();
+       logger.info(
+         "Connection to the database has been established successfully.",
+       );
+
+       await testModel.sync({ alter: true }); // Sync Here
+     } catch (error) {
+       await sequelize.close();
+       logger.error("Unable to connect to the database:", error);
+     }
+   }
    ```
 
 2. **Perform CRUD operations**

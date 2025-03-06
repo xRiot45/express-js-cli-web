@@ -42,7 +42,7 @@ $ express -i
 
 ### Update Express JS CLI
 
-To update Express CLI to the latest version, run command:
+To update Express JS CLI to the latest version, run command:
 
 ```bash
 $ express update

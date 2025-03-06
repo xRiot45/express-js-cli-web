@@ -93,7 +93,7 @@ export default { getAllData, getDataById, createData, updateData, deleteData };
 
 - The repository interacts directly with the database through the **testModel**.
 - Each function uses **Sequelize ORM** to execute database queries.
-- The **TypeScript version** provides additional type safety by using `testInterface`.
+- The **TypeScript version** provides additional type safety by using `Interface`.
 
 ---
 
@@ -104,12 +104,11 @@ export default { getAllData, getDataById, createData, updateData, deleteData };
 ```javascript
 import testRepository from "../repositories/test.repository.js";
 
-const fetchData = async () => {
-  const data = await testRepository.getAllData();
-  console.log(data);
+const get = async () => {
+  return await testRepository.getAllData();
 };
 
-fetchData();
+get();
 ```
 
 ### Example CRUD Operations

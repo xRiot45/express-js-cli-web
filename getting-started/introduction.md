@@ -6,7 +6,7 @@
 
 Express JS CLI comes as a solution for developers who want to save time in the initialization stage of backend projects using Express.js. With support for programming language selection (JavaScript or TypeScript), database configuration (MySQL or PostgreSQL), as well as tools such as Prettier for code formatting and Husky & Commitlint for commit standardization, this CLI is designed so that developers can focus directly on developing business features without worrying about the initial technical setup.
 
-This tool is perfect for beginners who want to start projects quickly as well as for development teams who want to maintain standards and consistency in their projects. With just a few simple commands, Express.js projects are ready to go with a structure that conforms to best practices.
+This tool is perfect for beginners, development teams, freelancers & startups who want to start projects quickly as well as for development teams who want to maintain standards and consistency in their projects. With just a few simple commands, Express.js projects are ready to go with a structure that conforms to best practices.
 
 ---
 
