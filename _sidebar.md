@@ -4,7 +4,6 @@
   - [About](getting-started/about.md)
   - [Quick Start](getting-started/quick-start.md)
   - [CLI Usage](getting-started/cli-usage.md)
-
 - Snippets Code
 
   - [Service Module](snippets-code/service-module.md)
@@ -17,7 +16,6 @@
   - [Util Module](snippets-code/util-module.md)
   - [Interface Module](snippets-code/interface-module.md)
   - [Test Module](snippets-code/test-module.md)
-
 - Configuration File
 
   - [Environment Configuration](configuration-files/environment-config.md)
@@ -26,6 +24,6 @@
   - [Babel Configuration](configuration-files/babel-config.md)
   - [Husky and CommitLint Configuration](configuration-files/commitlint-config.md)
   - [ESlint Config](configuration-files/eslint-config.md)
-
+- [Security Policy](documentation-files/security.md)
 - [License](documentation-files/license.md)
 - [Changelog](documentation-files/changelog.md)
