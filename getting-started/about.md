@@ -35,7 +35,7 @@ Me are actively improving this project! Here’s what’s coming next:
 - [ ] Support for MariaDB integration
 - [ ] Added security configuration
 
-Want a feature added? **Open a feature request** on [GitHub Issues](https://github.com/xRiot45/express-api-cli/issues).
+Want a feature added? **Open a feature request** on [GitHub Issues](https://github.com/xRiot45/express-api-cli/issues) and you can chose Feature Request template.
 
 ---
 
