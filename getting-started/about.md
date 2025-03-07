@@ -2,7 +2,7 @@
 
 ### 🔹 Version & Release Info
 
-- **Version :** v1.2.4
+- **Version :** v1.2.5
 - **Released On :** February 2025
 - **Status :** Stable Release
 - **License :** ISC License

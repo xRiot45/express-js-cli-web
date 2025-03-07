@@ -16,10 +16,11 @@ Express API CLI is a Command Line Interface (CLI) tool designed to make it easie
 
 <br />
 
-- **Version :** v1.2.0
+- **Version :** v1.2.5
 - **Developer :** Thomas Alberto
 - **Released On :** February 2025
 - **Status :** Stable Release
+- **License :** ISC License
 
 <br />
 
@@ -123,6 +124,22 @@ $ npm run format
 # Running your project
 $ npm run dev
 ```
+
+**6 Verify the Setup**
+
+To ensure the server is running properly, open a browser and access:
+
+```
+http://localhost:3000
+```
+
+Or run the following command in the terminal:
+
+```bash
+$ curl http://localhost:3000
+```
+
+If the server is running properly, you will see a response from your server.
 
 <br />
 
@@ -1686,7 +1703,7 @@ Support My Work 💙
 
 Hi there! If you find this tool useful and it helps you in your work, consider supporting me with a small donation. Your support is completely optional, but it would mean a lot and help me continue improving this tool.
 
-Thank you for using this Express JS CLI! 😊 <br />
+Thank you for using this Express CLI! 😊
 Happy coding! 🚀
 
 [Link Donate](https://saweria.co/thomasalberto)
