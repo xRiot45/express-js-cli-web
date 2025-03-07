@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [v1.2.5] - 2025-03-07
+
+### 🚀 Release Highlights
+
+- This update enhances project transparency and security by adding a `SECURITY.md` file and refining the project metadata.
+
+### 🔧 Enhancements
+
+- **Metadata:** Added a homepage and github link in `package.json` for better navigation.
+- **Security:** Introduced `SECURITY.md` to provide guidelines on reporting vulnerabilities and maintaining project security.
+
+### 📖 Documentation
+
+- Added `SECURITY.md` with details on how to report security issues.
+
 ## [v1.2.4] - 2025-03-05
 
 ### 🚀 Release Highlights
