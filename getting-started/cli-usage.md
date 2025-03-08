@@ -70,9 +70,9 @@ You can generate different types of files using the `generate` command with the 
 $ express generate <schematic> <file-name>
 ```
 
-### Available Schematics
+### Schematics
 
-- #### **controller**
+- #### controller
 
   ```bash
   $ express generate controller user
@@ -89,7 +89,7 @@ $ express generate <schematic> <file-name>
     ✖ ERROR File already exists: src/controllers/user.controller.js
     ```
 
-- #### **service**
+- #### service
 
   ```bash
   $ express generate service user
@@ -106,7 +106,7 @@ $ express generate <schematic> <file-name>
     ✖ ERROR File already exists: src/services/user.service.js
     ```
 
-- #### **route**
+- #### route
 
   ```bash
   $ express generate route user
@@ -123,7 +123,7 @@ $ express generate <schematic> <file-name>
     ✖ ERROR File already exists: src/routes/user.route.js
     ```
 
-- #### **repository**
+- #### repository
 
   ```bash
   $ express generate repository user
@@ -140,7 +140,7 @@ $ express generate <schematic> <file-name>
     ✖ ERROR File already exists: src/repositories/user.repository.js
     ```
 
-- #### **validation**
+- #### validation
 
   ```bash
   $ express generate validation user
@@ -157,7 +157,7 @@ $ express generate <schematic> <file-name>
     ✖ ERROR File already exists: src/validations/user.validation.js
     ```
 
-- #### **model**
+- #### model
 
   ```bash
   $ express generate model user
@@ -174,7 +174,7 @@ $ express generate <schematic> <file-name>
     ✖ ERROR File already exists: src/models/user.model.js
     ```
 
-- #### **interface** (for TypeScript projects)
+- #### interface (for TypeScript projects)
 
   ```bash
   $ express generate interface user
@@ -195,7 +195,7 @@ $ express generate <schematic> <file-name>
     ✖ ERROR	Can't generate interface in JavaScript
     ```
 
-- #### **types** (for TypeScript projects)
+- #### types (for TypeScript projects)
 
   ```bash
   $ express generate types global
@@ -216,7 +216,7 @@ $ express generate <schematic> <file-name>
     ✖ ERROR	Can't generate types in JavaScript
     ```
 
-- #### **resources**
+- #### resources
 
   ```bash
   $ express generate resources user
@@ -247,7 +247,7 @@ $ express generate <schematic> <file-name>
     ✖ ERROR		 File already exists: test/user.test.js
     ```
 
-- #### **config**
+- #### config
 
   ```bash
   $ express generate config app
@@ -264,7 +264,7 @@ $ express generate <schematic> <file-name>
     ✖ ERROR File already exists: src/configs/app.config.js/ts
     ```
 
-- #### **middleware**
+- #### middleware
 
   ```bash
   $ express generate middleware auth
@@ -281,7 +281,7 @@ $ express generate <schematic> <file-name>
     ✖ ERROR File already exists: src/middlewares/auth.middleware.js/ts
     ```
 
-- #### **util**
+- #### util
 
   ```bash
   $ express generate util format-date
@@ -298,7 +298,19 @@ $ express generate <schematic> <file-name>
     ✖ ERROR File already exists: src/utils/format-date.util.js/ts
     ```
 
-- **test**: Generate a new test file
+- #### test
+
   ```bash
-  express generate test userTest
+  $ express generate test auth
   ```
+
+  **Output:**
+
+  - If the test file is successfully generated, the following message will appear:
+    ```bash
+    ✔ SUCCESS File generated: test/auth.test.js/ts
+    ```
+  - If it fails because the file already exists, the following message will appear:
+    ```bash
+    ✖ ERROR File already exists: test/auth.test.js/ts
+    ```
