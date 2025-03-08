@@ -46,6 +46,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Added `SECURITY.md` with details on how to report security issues.
 
+---
+
 ## [v1.2.4] - 2025-03-05
 
 ### 🚀 Release Highlights
@@ -102,5 +104,3 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Implemented Jest & Supertest as the default testing framework for API testing.
 - Added Mocha & Chai as alternative testing frameworks for API testing.
 - Introduced the `test` command to automatically generate test files, making it easier for developers to maintain and update tests.
-
----
