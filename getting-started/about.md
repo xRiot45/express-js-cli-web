@@ -31,12 +31,13 @@
 
 Me are actively improving this project! Here’s what’s coming next:
 
-- [ ] Support for MongoDB integration
-- [ ] Support for SQLite Database integration
-- [ ] Support for MariaDB integration
-- [ ] Added security configuration
-- [ ] Added option for import type
+- [ ] Support for integration with SQLite Database
+- [ ] Support for integration with MariaDB
+- [ ] Support for integration with MongoDB
 - [ ] Added option for choose ORM (Object Relational Mapping)
+- [ ] Improved documentation
+- [ ] Added option for import type
+- [ ] Added middleware for security RESTful API
 
 Want a feature added? **Open a feature request** on [GitHub Issues](https://github.com/xRiot45/express-api-cli/issues) and you can chose Feature Request template.
 

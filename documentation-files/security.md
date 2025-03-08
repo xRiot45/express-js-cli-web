@@ -8,7 +8,7 @@ If you find any security related issues in **Express JS CLI**, please report the
 
 ➡ **[Github Issues](https://github.com/xRiot45/express-js-cli/issues)**
 
-## 📝 How to Report:
+## 📝 How to Report
 
 1. Open the link above and click the **"New Issue"** button.
 2. Choose the **Bug Report** template to report the issue you found.
