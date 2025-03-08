@@ -6,6 +6,7 @@
 - **Released On :** February 2025
 - **Status :** Stable Release
 - **License :** ISC License
+- **Link Npm JS :** [NPM JS](https://www.npmjs.com/package/express-api-cli-tool)
 
 ---
 
@@ -34,6 +35,7 @@ Me are actively improving this project! Here’s what’s coming next:
 - [ ] Support for SQLite Database integration
 - [ ] Support for MariaDB integration
 - [ ] Added security configuration
+- [ ] Added option for import type
 
 Want a feature added? **Open a feature request** on [GitHub Issues](https://github.com/xRiot45/express-api-cli/issues) and you can chose Feature Request template.
 
