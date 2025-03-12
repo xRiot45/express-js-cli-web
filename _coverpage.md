@@ -1,6 +1,6 @@
 <img src="_media/express-js-icon.svg" alt="logo" width="100">
 
-# Express JS CLI <small>v1.2.5</small>
+# Express JS CLI <small>2.0.0</small>
 
 > The ultimate CLI tool for setting up Express.js projects effortlessly.
 

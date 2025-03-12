@@ -11,7 +11,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Category          | Icon | Description                                                                                                              |
 | ----------------- | ---- | ------------------------------------------------------------------------------------------------------------------------ |
-| **Added**         | ✨   | New features added                                                                                                       |
+| **Features**      | ✨   | New features added                                                                                                       |
+| **Enhancements**  | 🔧   | Improvements or improvements to existing features                                                                        |
 | **Changed**       | 🔄   | Changes to existing features                                                                                             |
 | **Deprecated**    | ⚠️   | Features that are deprecated and will be removed in the future                                                           |
 | **Removed**       | ❌   | Removed feature                                                                                                          |
@@ -25,6 +26,40 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 | **Dependencies**  | 📦   | Changes related to updating or removing external dependencies.                                                           |
 | **Hotfix**        | 🔥   | Urgent fixes to critical bugs that affect production.                                                                    |
 | **Configuration** | ⚙️   | Changes to system configuration, environment variables, or application settings.                                         |
+| **Licensing**     | 📝   | Change or add anything related to the license                                                                            |
+
+---
+
+## [v2.0.0] - 2025-03-12
+
+### 🚀 Release Highlights
+
+- This major update introduces new features, improved project structure, and additional documentation to enhance usability and maintainability.
+
+### ✨ Features
+
+- **Enum Generation:** Added support for generating enum file.
+- **Import Alias Options:** Users can choose whether to use import alias or not to use import alias.
+
+### 🔧 Enhancements
+
+- **Middleware Templates:** Added built-in templates for commonly used middleware:
+  - Compression Middleware
+  - Error Handling Middleware
+  - Morgan (Logging) Middleware
+  - CORS Middleware
+  - Rate Limiter Middleware
+- **Express Configuration:** All express configurations are now in the `express.config.js/ts` file in the `configs` folder, no longer storing all configurations in `app.js/ts`.
+- **Server Separation:** The server setup is now in a separate file rather than being defined in `app.js/ts`.
+
+### 📚 Documentation
+
+- **Code of Conduct:** Added `CODE_OF_CONDUCT.md` to establish community guidelines.
+- **Contribution Guide:** Added `CONTRIBUTING.md` to help contributors understand the workflow and best practices.
+
+### 📝 Licensing
+
+- Changed project license from ISC to MIT for better compatibility and openness.
 
 ---
 
@@ -56,7 +91,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - The default template includes a simple welcome message, making it easier for users to see an initial response without additional setup.
 - Updated `README.md` to reflect the changes.
 
-### ✨ Added
+### ✨ Features
 
 - The generated project now includes a default route (`/`) with a simple welcome message. This can be removed from `app.js` or `app.ts` if not needed.
 
@@ -99,7 +134,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Introduced built-in testing features using Jest & Supertest, and Mocha & Chai, allowing users to test their API endpoints more easily.
 - Added the `test` command, which helps in regenerating test files automatically for seamless testing setup.
 
-### ✨ Added
+### ✨ Features
 
 - Implemented Jest & Supertest as the default testing framework for API testing.
 - Added Mocha & Chai as alternative testing frameworks for API testing.

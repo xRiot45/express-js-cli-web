@@ -27,7 +27,16 @@
   - [Husky and CommitLint Configuration](configuration-files/commitlint-config.md)
   - [ESlint Config](configuration-files/eslint-config.md)
 
-<!-- - [How To Contributing](documentation-files/contributing.md) -->
+- Middleware Config
+
+  - [Compression Middleware](middleware-config/compression-middleware.md)
+  - [Cors Middleware](middleware-config/cors-middleware.md)
+  - [Error Middleware](middleware-config/error-middleware.md)
+  - [Rate Limiter Middleware](middleware-config/rate-limiter-middleware.md)
+  - [Morgan Middleware](middleware-config/morgan-middleware.md)
+
+- [How To Contributing](documentation-files/contributing.md)
 - [Security Policy](documentation-files/security.md)
 - [License](documentation-files/license.md)
+- [Code Of Conduct](documentation-files/code_of_conduct.md)
 - [Changelog](documentation-files/changelog.md)
