@@ -15,6 +15,7 @@
   - [Validation Module](snippets-code/validation-module.md)
   - [Middleware Module](snippets-code/middleware-module.md)
   - [Util Module](snippets-code/util-module.md)
+  - [Enum Module](snippets-code/enum-module.md)
   - [Interface Module](snippets-code/interface-module.md)
   - [Test Module](snippets-code/test-module.md)
 
