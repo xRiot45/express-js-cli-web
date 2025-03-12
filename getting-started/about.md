@@ -2,10 +2,10 @@
 
 ### 🔹 Version & Release Info
 
-- **Version :** v1.2.5
+- **Version :** v2.0.0
 - **Released On :** February 2025
 - **Status :** Stable Release
-- **License :** ISC License
+- **License :** MIT License
 - **Link Npm JS :** [NPM JS](https://www.npmjs.com/package/express-api-cli-tool)
 
 ---
@@ -35,9 +35,9 @@ Me are actively improving this project! Here’s what’s coming next:
 - [ ] Support for integration with MariaDB
 - [ ] Support for integration with MongoDB
 - [ ] Added option for choose ORM (Object Relational Mapping)
-- [ ] Improved documentation
-- [ ] Added option for import type
-- [ ] Added middleware for security RESTful API
+- [x] Improved documentation
+- [x] Added option for import type
+- [x] Added middleware CORS, Compression, Error, Rate Limiter and Morgan
 
 Want a feature added? **Open a feature request** on [GitHub Issues](https://github.com/xRiot45/express-api-cli/issues) and you can chose Feature Request template.
 
@@ -77,5 +77,5 @@ This project would not be possible without the support and feedback from everyon
 
 ---
 
-With **Express JS CLI**, setting up an Express.js project has never been easier.  
+With **Express JS CLI**, setting up an Express.js project has never been easier.
 Save time, ensure consistency, and start building great APIs today! 🚀

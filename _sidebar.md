@@ -5,7 +5,7 @@
   - [Quick Start](getting-started/quick-start.md)
   - [CLI Usage](getting-started/cli-usage.md)
 
-- Snippets Code
+- Snippets Code ![New](https://img.shields.io/badge/New-green?style=flat-square)
 
   - [Service Module](snippets-code/service-module.md)
   - [Controller Module](snippets-code/controller-module.md)
@@ -15,7 +15,7 @@
   - [Validation Module](snippets-code/validation-module.md)
   - [Middleware Module](snippets-code/middleware-module.md)
   - [Util Module](snippets-code/util-module.md)
-  - [Enum Module](snippets-code/enum-module.md)
+  - [Enum Module (New!!)](snippets-code/enum-module.md)
   - [Interface Module](snippets-code/interface-module.md)
   - [Test Module](snippets-code/test-module.md)
 
@@ -28,7 +28,7 @@
   - [Husky and CommitLint Configuration](configuration-files/commitlint-config.md)
   - [ESlint Config](configuration-files/eslint-config.md)
 
-- Middleware Config
+- Middleware Config ![New](https://img.shields.io/badge/New-green?style=flat-square)
 
   - [Compression Middleware](middleware-config/compression-middleware.md)
   - [Cors Middleware](middleware-config/cors-middleware.md)
